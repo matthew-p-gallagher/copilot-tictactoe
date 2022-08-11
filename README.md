@@ -50,7 +50,7 @@ But, valid inputs not so well...
 
 <img src="images/14.png" alt="14.png" width="600">
 
-So using Copilot for pretty much the entirety of the code has produced something which is runnable, and which looks close to a correct solution. But there is clearly some strange bug involving the players names and the boolean value False. Before the blame gets put on Python for being dynamically typed, I'll look through what we have to see what the issue.
+So using Copilot for pretty much the entirety of the code has produced something which is runnable, and which looks close to a correct solution. But there is clearly some strange bug involving the players names and the boolean value False. Before the blame gets put on Python for being dynamically typed, I'll look through what we have to see what's the issue.
 
 ### Debugging
 
@@ -58,7 +58,7 @@ It turns out there is a pretty substantial flaw in the logic of the game where -
 
 <img src="images/15.png" alt="15.png" width="600">
 
-So the task of creating a TicTacToe game evolved into the task of debugging a solution given to us by an artificial agent. At this point we could go back to the initial tictactoe function an select another suggestion and go from there, and perhaps we would find a better solution.
+So the task of creating a TicTacToe game evolved into the task of debugging a solution given to us by an artificial agent. At this point we could go back to the initial tictactoe function, select another suggestion and go from there, and perhaps we would find a better solution.
 
 ### Conclusion
 
